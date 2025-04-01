@@ -1,9 +1,14 @@
+@font-face {
+    font-family: figtreeitalic;
+    src: url(Figtree-Italic-VariableFont_wght.tff);
+}
+
 body {
     background-color: hsl(47, 88%, 63%);
 }
 
 .card {
-    width: 400px;
+    width: 350px;
     height: 500px;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -19,8 +24,11 @@ body {
     display: block;
     margin-top: 25px;
     margin-left: 10px;
-    border-radius: 5%;
+    margin-right: 10px;
+    border-radius: 10%;
     padding-top: 20px;
+    overflow: hidden;
+    background-clip: padding-box;
 }
 
 .text {
@@ -36,9 +44,31 @@ body {
     padding-top: 5px;
     border-radius: 15%;
     margin-left: 10px;
+    border-left: 20px;
 }
 
 #published {
     text-align: left;
-    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 150%;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#description {
+    color: grey;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#heading {
+    text-align: left;
+    padding-left: 5px;
+}
+
+#name {
+    
 }
