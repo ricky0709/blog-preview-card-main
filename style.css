@@ -1,6 +1,12 @@
 @font-face {
-    font-family: figtreeitalic;
-    src: url(Figtree-Italic-VariableFont_wght.tff);
+    font-family: Figtree-Italic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+
+}
+
+@font-face {
+    font-family: figtreevariable;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 body {
@@ -17,16 +23,18 @@ body {
     box-shadow: 5px 10px;
     border-color: black;
     border-width: 20px;
+    border: 1px solid black;
     max-width: 500px;
 }
 
 #image {
+    width: 300px;
+    height: auto;
     display: block;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 10px;
-    border-radius: 10%;
-    padding-top: 20px;
+    border-radius: 10px;
     overflow: hidden;
     background-clip: padding-box;
 }
@@ -41,27 +49,31 @@ body {
     width:72px;
     height: 25px;
     padding-left: 10px;
+    padding-right: 10px;
     padding-top: 5px;
-    border-radius: 15%;
-    margin-left: 10px;
-    border-left: 20px;
+    border-radius: 8px;
+    margin-left: 25px;
+    display: inline-block;
+    font-family: figtreevariable;
 }
 
 #published {
     text-align: left;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 h1 {
     font-size: 150%;
     text-align: left;
-    margin-left: 5px;
+    margin-left: 20px;
+    font-family: figtreevariable;
 }
 
 #description {
     color: grey;
     text-align: left;
-    padding-left: 10px;
+    margin-left: 25px;
+    font-family: figtreevariable;
 }
 
 #heading {
@@ -69,6 +81,22 @@ h1 {
     padding-left: 5px;
 }
 
+.avatar-name {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0fr 2fr 2fr;
+    column-gap: 5px;
+}
+
 #name {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: figtreevariable;
     
+}
+
+#avatar {
+    width: 35px;
+    height: 35px;
+    margin-left: 25px;
 }
