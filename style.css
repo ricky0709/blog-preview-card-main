@@ -81,6 +81,10 @@ h1 {
     padding-left: 5px;
 }
 
+#heading:hover {
+    color: hsl(47, 88%, 63%);
+}
+
 .avatar-name {
     display: grid;
     align-items: center; 
